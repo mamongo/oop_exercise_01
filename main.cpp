@@ -420,42 +420,5 @@ int main(){
 				break;
 		}
 	}
-	/*bs data;
-	cin >> data.old >> data.young;
-	BitString a(data),b({2147483647,125}),c;
-	a.PrintBS();
-	b.PrintBS();
-	cout << "	And	" << endl;
-	c.setData(a.And(b));
-	c.PrintBS();
-
-	cout << "	Or	" << endl;
-	c.setData(a.Or(b));
-	c.PrintBS();
-
-	cout << "	Xor	" << endl;
-	c.setData(a.Xor(b));
-	c.PrintBS();
-
-	cout << "	Not	" << endl;
-	c.setData(a.Not());
-	c.PrintBS();
-
-	cout << "	<<<	" << endl;
-	c.setData(a.ShiftLeft(32));
-	c.PrintBS();
-
-	cout << "	>>>	" << endl;
-	c.setData(a.ShiftRight(32));
-	c.PrintBS();
-
-	cout << "	Bits amount	" << endl;
-	cout << a.BitsAmount().sum << "and" << b.BitsAmount().sum << endl;
-	cout << "	Inclusion	" << endl;
-	bool check = a.Includes(31);
-	if(check)
-		cout << endl << "Все верно! Число включено" << endl;
-	else
-		cout << endl << "НЕТ НЕТ НЕТ! Чиcло не включено" << endl;*/
 	return 0;
 }
