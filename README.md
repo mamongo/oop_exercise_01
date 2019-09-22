@@ -1,5 +1,5 @@
 # oop_exercize_01
-  in bash:
-    cmake cmakelists.txt
-    make
+  in bash:\n
+    cmake cmakelists.txt\n
+    make\n
     ./exercise_01
